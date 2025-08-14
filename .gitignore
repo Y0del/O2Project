@@ -73,3 +73,5 @@ Plugins/**/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+Windows/Exhibition/Binaries/Win64/Exhibition.pdb
+Windows/Exhibition/Content/Paks/Exhibition-Windows.ucas
