@@ -1,0 +1,16 @@
+{
+  "id": "ART_002",
+  "title": {
+    "ko": "Blue",
+    "en": "Still Life in Blue"
+  },
+  "artist": "Kim",
+  "year": 2023,
+  "description": {
+    "ko": "차가운 청색으로...",
+    "en": "Cool blues..."
+  },
+  "tags": [ "oil", "still life" ],
+  "image_url": "",
+  "audio_url": ""
+}

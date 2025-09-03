@@ -155,7 +155,6 @@ void UEX_BlueprintFunctionLibrary::FetchDocentForArtwork(const FString& BaseURL,
             UE_LOG(LogTemp, Warning, TEXT("[Docent] Failed: %s (code=%d)"), *Reason, Code);
         };
 
-    // 1) file:// 또는 로컬 경로 지원
     if (BaseURL.StartsWith(TEXT("file://")) || FPaths::DirectoryExists(BaseURL) || FPaths::FileExists(BaseURL))
     {
         FString Local = BaseURL.StartsWith(TEXT("file://")) ? BaseURL.RightChop(7) : BaseURL;
@@ -183,7 +182,6 @@ void UEX_BlueprintFunctionLibrary::FetchDocentForArtwork(const FString& BaseURL,
         }
     }
 
-    // 2) HTTP(S)
     FString FinalURL = BaseURL;
     if (!BaseURL.EndsWith(TEXT(".json"), ESearchCase::IgnoreCase))
     {
