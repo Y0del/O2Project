@@ -28,6 +28,10 @@
 		{
 			"Name": "VaRest",
 			"Enabled": true
+		},
+		{
+			"Name": "MediaFrameworkUtilities",
+			"Enabled": true
 		}
 	]
 }
